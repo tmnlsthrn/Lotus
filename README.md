@@ -6,3 +6,15 @@ He's busy a lot with updating stuff and improving the user experience, a while a
 That's where I came in, it took me a while, and published these files for you to use on your repository or even your website.
 
 This is still __work in progress__ though, be sure to check back later for an even better version of Lotus!
+
+<hr>
+
+### How To
+
+* Download the Lotus files.
+
+* Upload it to your website's (sub)domain folder.
+
+* Add ```<link href="/lotus.css" rel="stylesheet" type="text/css">``` and ```<script src="/lotus.js"></script>``` between your ```<head></head>``` tags, and you're done!
+
+> I'll add a preview soon of how you should write your HTML, for the experienced, go ahead already.
