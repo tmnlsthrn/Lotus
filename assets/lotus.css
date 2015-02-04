@@ -1,6 +1,6 @@
 /* Lotus - iOS Interface Cascading Style Sheet
  * Copyright (C) 2014-2015  Timon Olsthoorn (tmnlsthrn)
-*/
+ */
 
 /*
  *        Redistribution and use in source and binary
@@ -33,7 +33,15 @@
  * TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN
  * ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-*/
+ */
+
+.iosver {
+top:-1px
+}
+
+.prerequisite p {
+    text-align:center
+}
 
 .hidden {
 display:none
@@ -464,7 +472,7 @@ background-size:10px 13px
 */
 
 fieldset > a > div > div > select, fieldset > a[href] > div > div {
-background-image:url('chevron.png');
+background-image:url('chevron78.png');
 background-position:right center;
 background-repeat:no-repeat;
 padding-right:24px;
@@ -475,7 +483,7 @@ background-size:8px 12.5px
 @media screen and (-webkit-min-device-pixel-ratio: 2){
 
 fieldset > a > div > div > select, fieldset > a[href] > div > div {
-background-image:url('chevron.png')
+background-image:url('chevron78.png')
 }
 
 }
