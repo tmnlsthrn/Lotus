@@ -472,7 +472,7 @@ background-size:10px 13px
 */
 
 fieldset > a > div > div > select, fieldset > a[href] > div > div {
-background-image:url('chevron78.png');
+background-image:url('../img/chevron.png');
 background-position:right center;
 background-repeat:no-repeat;
 padding-right:24px;
@@ -483,7 +483,7 @@ background-size:8px 12.5px
 @media screen and (-webkit-min-device-pixel-ratio: 2){
 
 fieldset > a > div > div > select, fieldset > a[href] > div > div {
-background-image:url('chevron78.png')
+background-image:url('../img/chevron.png')
 }
 
 }
