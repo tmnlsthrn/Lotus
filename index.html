@@ -1,35 +1,34 @@
 <html>
 <head>
-<title>Lotus</title>
+<title>My Cydia Repository</title>
 <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0"/>
 <base target="_blank"/> 
-
-<script type="text/javascript" src="/assets/menes.js"></script>
+<script type="text/javascript" src="js/menes.js"></script>
 <link rel="stylesheet" type="text/css" id="stylesheet">
-<script type="text/javascript">var agent=navigator.userAgent;var ios=agent.match(/.*; CPU (?:iPhone )?OS ([0-9_]*) like Mac OS X[;)]/);ios=ios==null?'6.0':ios[1].replace(/_/g,'.');var stylesheet=$("#stylesheet");if(ios.match(/^[78]($|\.)/)!=null){stylesheet.href("/assets/lotus.css")}else{stylesheet.href("/assets/legacy.css")}</script>
-
+<script type="text/javascript">var agent=navigator.userAgent;var ios=agent.match(/.*; CPU (?:iPhone )?OS ([0-9_]*) like Mac OS X[;)]/);ios=ios==null?'6.0':ios[1].replace(/_/g,'.');var stylesheet=$("#stylesheet");if(ios.match(/^[78]($|\.)/)!=null){stylesheet.href("css/lotus.css")}else{stylesheet.href("css/legacy.css")}</script>
 </head>
-
 	<script type="text/javascript">
 		if (navigator.userAgent.search(/Cydia/) != -1)
 			document.write('<style type="text/css"> body { background: none !important; } </style>');
 	</script>
-
 <body class="pinstripe nolegacy">
 <panel>
-
-<fieldset>
-<a href="cydia://sources/add"><img src="/CydiaIcon.png" class="icon"><div><div><label><p>Add Source to Cydia</p></label><label class="url"><p>http://apt.example.com</p></label></div></div></a>
-</fieldset>
-
 <block>
-<p>This is a beta repository and is only accessible to a few selected people, if you want to request access, please use the button below to contact the repository manager.</p>
+<p>Installation of this repository is easy. Just select the text below and paste it into your Cydia sources:</p>
 </block>
-
 <fieldset>
-<a href="#"><img src="http://cydia.saurik.com/ui/ios/1.1/package/web.png" class="icon"><div><div><label><p>Request Repository Access</p></label></div></div></a>
+<div class="input"><center><input type="text" value="http://myrepo.com/repo" onClick="setSelectionRange(0,24)"/></center></div>
 </fieldset>
-
+<fieldset>
+<a href="cydia://sources/add"><img src="CydiaIcon.png" class="icon"><div><div><label><p>Add Repository</p></label></div></div></a>
+</fieldset>
+<fieldset>
+<a href="https://twitter.com"><img src="http://cydia.saurik.com/icon/twitter.png" class="icon"><div><div><label><p>Follow me on Twitter</p></label></div></div></a>
+</fieldset>
+<footer>Powered by Lotus by Timon Olsthoorn</footer>
+<fieldset>
+<a href="https://github.com/citrusui/lotus"><img src="http://cydia.saurik.com/ui/ios/1.1/package/web.png" class="icon"><div><div><label><p>Lotus on GitHub</p></label></div></div></a><a href="credits.html"><img src="http://cydia.saurik.com/ui/ios/1.1/package/version.png" class="icon"><div><div><label><p>My Repo Credits</p></label></div></div></a>
+</fieldset>
 </panel>
 </body>
 </html>

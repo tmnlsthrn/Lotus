@@ -1,22 +1,29 @@
-# Lotus
-We all know saurik, the grate god behind all the big things in the jailbreak community.
-One of his projects is, Cytyle, CSS and JS for the look and feel of Cydia and the depictions of most repositories.
-He's busy a lot with updating stuff and improving the user experience, a while ago, Cydia got its big update for iOS 7. But the iOS 7-ish look for the pages was still missing. :(
+# lotus
 
-That's where I came in, it took me a while, and published these files for you to use on your repository or even your website.
+a native, iOS-styled depiction set.
 
-This is still __work in progress__, be sure to check back later for an even better version of Lotus!
+## Limitations
 
-<hr>
+`•` No support for inline screenshots
 
-### How To
+`•` No extended "Recent Changes"
 
-* Download the Lotus files from GitHub. And then upload all the Lotus files and folders to your website's (sub)domain folder.
+`•` No proper tap-and-hold gesture, yet 
 
-* Edit the ```index.html``` to your needs, so that your repo has an information page when people visit it via Safari or their computer.
+## Improvements
 
-* Edit the files in the com.example.package folder however you like them best. And don't forget to change the name of the folder to the bundle id of your package. If you have multiple packages, duplicate the com.example.package folder as much as you need to.
+`•` Reworded for further clarity
 
-* Add ```Depiction: http://apt.example.com/info/com.example.package``` to the control file of your package, and you're done!
+`•` Simplified file hierarchy
 
-> If you run into any issues or have questions, you can contact me on Twitter for help (@tmnlsthrn).
+`•` Direct links to Cydia assets (e.g. Featured, Account, Filesystem Content, and Cydia package icons themselves)
+
+## Demos
+
+https://citrusui.github.io/lotus/credits.html
+
+https://citrusui.github.io/lotus/example.html
+
+https://citrusui.github.io/lotus/index.html
+
+https://citrusui.github.io/lotus/links.html
