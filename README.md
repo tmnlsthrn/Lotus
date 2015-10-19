@@ -13,6 +13,8 @@ This is still __work in progress__, be sure to check back later for an even bett
 
 * Download the Lotus files from GitHub. And then upload all the Lotus files and folders to your website's (sub)domain folder.
 
+* (You can also hotlink against [legacy.css](https://raw.githubusercontent.com/tmnlsthrn/Lotus/master/css/legacy.css) and [lotus.css](https://raw.githubusercontent.com/tmnlsthrn/Lotus/master/css/lotus.css) in your HTML files instead of uploading the stylesheets to your server, also you'll receive updates as I commit them!)
+
 * Edit the ```index.html``` to your needs, so that your repo has an information page when people visit it via Safari or their computer.
 
 * Edit the files in the com.example.package folder however you like them best. And don't forget to change the name of the folder to the bundle id of your package. If you have multiple packages, duplicate the com.example.package folder as much as you need to.
