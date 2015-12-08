@@ -153,21 +153,11 @@ margin-left:3px
 panel > block {
 display: block;
 border: 1px dashed #d5d4d8;
-/* border: 1px solid #d5d4d8; */
+border-left: none;
+border-right: none;
 background-color: rgba(255, 255, 255, 0.5);
 margin:6px 0 35px 0;
 }
-
-/* iPhone 5/c/s */
-@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait) {panel > block {border-left:0;border-right:0;}}
-/* iPhone 6 */
-@media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : portrait) {panel > block {border-left:0;border-right:0;}}
-/* iPhone 6 Plus */
-@media only screen and (min-device-width : 540px) and (max-device-width : 960px) and (orientation : portrait) {panel > block {border-left:0;border-right:0;}}
-/* iPad 1/2 */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (-webkit-min-device-pixel-ratio: 1) {panel > block {border-left:1px dashed #d5d4d8;border-right:1px dashed #d5d4d8;}}
-/* iPad 3/4 */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (-webkit-min-device-pixel-ratio: 2) {panel > block {border-left:1px dashed #d5d4d8;border-right:1px dashed #d5d4d8;}}
 
 panel > fieldset, div.cy-table > fieldset {
 display:block;
@@ -175,6 +165,8 @@ background-color:#fff;
 /* margin:6px 0 35px 0; */
 margin:0 0 35px 0;
 border:1px solid #d5d4d8;
+border-left: 0;
+border-right: 0;
 font-size:16px;
 position:relative;
 max-width:414px
@@ -188,17 +180,6 @@ div.cy-table > fieldset.editorial {
 margin:0 0 35px 0;
 border-top:0;
 }
-
-/* iPhone 5/c/s */
-@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait) {panel > fieldset, div.cy-table > fieldset {border-left:0;border-right:0;}}
-/* iPhone 6 */
-@media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : portrait) {panel > fieldset, div.cy-table > fieldset {border-left:0;border-right:0;}}
-/* iPhone 6 Plus */
-@media only screen and (min-device-width : 540px) and (max-device-width : 960px) and (orientation : portrait) {panel > fieldset, div.cy-table > fieldset {border-left:0;border-right:0;}}
-/* iPad 1/2 */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (-webkit-min-device-pixel-ratio: 1) {panel > fieldset, div.cy-table > fieldset {border-left:1px solid #d5d4d8;border-right:1px solid #d5d4d8;}}
-/* iPad 3/4 */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (-webkit-min-device-pixel-ratio: 2) {panel > fieldset, div.cy-table > fieldset {border-left:1px solid #d5d4d8;border-right:1px solid #d5d4d8;}}
 
 panel > fieldset.spots {
 background-color:#e7f0f7
