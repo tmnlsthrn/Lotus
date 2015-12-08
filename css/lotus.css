@@ -35,12 +35,8 @@
  * ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-.iosver {
-top:-1px
-}
-
 .prerequisite p {
-    text-align:center
+text-align:center
 }
 
 .hidden {
